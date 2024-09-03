@@ -1,13 +1,13 @@
 //
-//  heartstone_database_iosUITestsLaunchTests.swift
-//  heartstone_database_iosUITests
+//  recipesUITestsLaunchTests.swift
+//  recipesUITests
 //
-//  Created by 张弛 on 2024/8/23.
+//  Created by 张弛 on 2024/9/3.
 //
 
 import XCTest
 
-final class heartstone_database_iosUITestsLaunchTests: XCTestCase {
+final class recipesUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

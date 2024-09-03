@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A4C67A32C7889350052C9B5 /* heartstone_database_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C67A22C7889350052C9B5 /* heartstone_database_iosApp.swift */; };
-		9A4C67A52C7889350052C9B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C67A42C7889350052C9B5 /* ContentView.swift */; };
-		9A4C67A72C7889360052C9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C67A62C7889360052C9B5 /* Assets.xcassets */; };
-		9A4C67AA2C7889360052C9B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C67A92C7889360052C9B5 /* Preview Assets.xcassets */; };
-		9A4C67B42C7889360052C9B5 /* heartstone_database_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C67B32C7889360052C9B5 /* heartstone_database_iosTests.swift */; };
-		9A4C67BE2C7889370052C9B5 /* heartstone_database_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C67BD2C7889370052C9B5 /* heartstone_database_iosUITests.swift */; };
-		9A4C67C02C7889370052C9B5 /* heartstone_database_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C67BF2C7889370052C9B5 /* heartstone_database_iosUITestsLaunchTests.swift */; };
+		9A95B3312C8709CD00E525EB /* recipesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B3302C8709CD00E525EB /* recipesApp.swift */; };
+		9A95B3332C8709CD00E525EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B3322C8709CD00E525EB /* ContentView.swift */; };
+		9A95B3352C8709CE00E525EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A95B3342C8709CE00E525EB /* Assets.xcassets */; };
+		9A95B3382C8709CE00E525EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A95B3372C8709CE00E525EB /* Preview Assets.xcassets */; };
+		9A95B3422C8709CF00E525EB /* recipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B3412C8709CF00E525EB /* recipesTests.swift */; };
+		9A95B34C2C8709CF00E525EB /* recipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B34B2C8709CF00E525EB /* recipesUITests.swift */; };
+		9A95B34E2C8709CF00E525EB /* recipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B34D2C8709CF00E525EB /* recipesUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A4C67B02C7889360052C9B5 /* PBXContainerItemProxy */ = {
+		9A95B33E2C8709CF00E525EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A4C67972C7889350052C9B5 /* Project object */;
+			containerPortal = 9A95B3252C8709CD00E525EB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A4C679E2C7889350052C9B5;
-			remoteInfo = heartstone_database_ios;
+			remoteGlobalIDString = 9A95B32C2C8709CD00E525EB;
+			remoteInfo = recipes;
 		};
-		9A4C67BA2C7889370052C9B5 /* PBXContainerItemProxy */ = {
+		9A95B3482C8709CF00E525EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9A4C67972C7889350052C9B5 /* Project object */;
+			containerPortal = 9A95B3252C8709CD00E525EB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A4C679E2C7889350052C9B5;
-			remoteInfo = heartstone_database_ios;
+			remoteGlobalIDString = 9A95B32C2C8709CD00E525EB;
+			remoteInfo = recipes;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9A4C679F2C7889350052C9B5 /* heartstone_database_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heartstone_database_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4C67A22C7889350052C9B5 /* heartstone_database_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartstone_database_iosApp.swift; sourceTree = "<group>"; };
-		9A4C67A42C7889350052C9B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		9A4C67A62C7889360052C9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9A4C67A92C7889360052C9B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9A4C67AF2C7889360052C9B5 /* heartstone_database_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heartstone_database_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4C67B32C7889360052C9B5 /* heartstone_database_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartstone_database_iosTests.swift; sourceTree = "<group>"; };
-		9A4C67B92C7889370052C9B5 /* heartstone_database_iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heartstone_database_iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A4C67BD2C7889370052C9B5 /* heartstone_database_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartstone_database_iosUITests.swift; sourceTree = "<group>"; };
-		9A4C67BF2C7889370052C9B5 /* heartstone_database_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heartstone_database_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A95B32D2C8709CD00E525EB /* recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95B3302C8709CD00E525EB /* recipesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesApp.swift; sourceTree = "<group>"; };
+		9A95B3322C8709CD00E525EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A95B3342C8709CE00E525EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A95B3372C8709CE00E525EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A95B33D2C8709CF00E525EB /* recipesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95B3412C8709CF00E525EB /* recipesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesTests.swift; sourceTree = "<group>"; };
+		9A95B3472C8709CF00E525EB /* recipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A95B34B2C8709CF00E525EB /* recipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesUITests.swift; sourceTree = "<group>"; };
+		9A95B34D2C8709CF00E525EB /* recipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A4C679C2C7889350052C9B5 /* Frameworks */ = {
+		9A95B32A2C8709CD00E525EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4C67AC2C7889360052C9B5 /* Frameworks */ = {
+		9A95B33A2C8709CF00E525EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4C67B62C7889370052C9B5 /* Frameworks */ = {
+		9A95B3442C8709CF00E525EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A4C67962C7889350052C9B5 = {
+		9A95B3242C8709CD00E525EB = {
 			isa = PBXGroup;
 			children = (
-				9A4C67A12C7889350052C9B5 /* heartstone_database_ios */,
-				9A4C67B22C7889360052C9B5 /* heartstone_database_iosTests */,
-				9A4C67BC2C7889370052C9B5 /* heartstone_database_iosUITests */,
-				9A4C67A02C7889350052C9B5 /* Products */,
+				9A95B32F2C8709CD00E525EB /* recipes */,
+				9A95B3402C8709CF00E525EB /* recipesTests */,
+				9A95B34A2C8709CF00E525EB /* recipesUITests */,
+				9A95B32E2C8709CD00E525EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A4C67A02C7889350052C9B5 /* Products */ = {
+		9A95B32E2C8709CD00E525EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A4C679F2C7889350052C9B5 /* heartstone_database_ios.app */,
-				9A4C67AF2C7889360052C9B5 /* heartstone_database_iosTests.xctest */,
-				9A4C67B92C7889370052C9B5 /* heartstone_database_iosUITests.xctest */,
+				9A95B32D2C8709CD00E525EB /* recipes.app */,
+				9A95B33D2C8709CF00E525EB /* recipesTests.xctest */,
+				9A95B3472C8709CF00E525EB /* recipesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A4C67A12C7889350052C9B5 /* heartstone_database_ios */ = {
+		9A95B32F2C8709CD00E525EB /* recipes */ = {
 			isa = PBXGroup;
 			children = (
-				9A4C67A22C7889350052C9B5 /* heartstone_database_iosApp.swift */,
-				9A4C67A42C7889350052C9B5 /* ContentView.swift */,
-				9A4C67A62C7889360052C9B5 /* Assets.xcassets */,
-				9A4C67A82C7889360052C9B5 /* Preview Content */,
+				9A95B3302C8709CD00E525EB /* recipesApp.swift */,
+				9A95B3322C8709CD00E525EB /* ContentView.swift */,
+				9A95B3342C8709CE00E525EB /* Assets.xcassets */,
+				9A95B3362C8709CE00E525EB /* Preview Content */,
 			);
-			path = heartstone_database_ios;
+			path = recipes;
 			sourceTree = "<group>";
 		};
-		9A4C67A82C7889360052C9B5 /* Preview Content */ = {
+		9A95B3362C8709CE00E525EB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				9A4C67A92C7889360052C9B5 /* Preview Assets.xcassets */,
+				9A95B3372C8709CE00E525EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		9A4C67B22C7889360052C9B5 /* heartstone_database_iosTests */ = {
+		9A95B3402C8709CF00E525EB /* recipesTests */ = {
 			isa = PBXGroup;
 			children = (
-				9A4C67B32C7889360052C9B5 /* heartstone_database_iosTests.swift */,
+				9A95B3412C8709CF00E525EB /* recipesTests.swift */,
 			);
-			path = heartstone_database_iosTests;
+			path = recipesTests;
 			sourceTree = "<group>";
 		};
-		9A4C67BC2C7889370052C9B5 /* heartstone_database_iosUITests */ = {
+		9A95B34A2C8709CF00E525EB /* recipesUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9A4C67BD2C7889370052C9B5 /* heartstone_database_iosUITests.swift */,
-				9A4C67BF2C7889370052C9B5 /* heartstone_database_iosUITestsLaunchTests.swift */,
+				9A95B34B2C8709CF00E525EB /* recipesUITests.swift */,
+				9A95B34D2C8709CF00E525EB /* recipesUITestsLaunchTests.swift */,
 			);
-			path = heartstone_database_iosUITests;
+			path = recipesUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A4C679E2C7889350052C9B5 /* heartstone_database_ios */ = {
+		9A95B32C2C8709CD00E525EB /* recipes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4C67C32C7889370052C9B5 /* Build configuration list for PBXNativeTarget "heartstone_database_ios" */;
+			buildConfigurationList = 9A95B3512C8709CF00E525EB /* Build configuration list for PBXNativeTarget "recipes" */;
 			buildPhases = (
-				9A4C679B2C7889350052C9B5 /* Sources */,
-				9A4C679C2C7889350052C9B5 /* Frameworks */,
-				9A4C679D2C7889350052C9B5 /* Resources */,
+				9A95B3292C8709CD00E525EB /* Sources */,
+				9A95B32A2C8709CD00E525EB /* Frameworks */,
+				9A95B32B2C8709CD00E525EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = heartstone_database_ios;
-			productName = heartstone_database_ios;
-			productReference = 9A4C679F2C7889350052C9B5 /* heartstone_database_ios.app */;
+			name = recipes;
+			productName = recipes;
+			productReference = 9A95B32D2C8709CD00E525EB /* recipes.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A4C67AE2C7889360052C9B5 /* heartstone_database_iosTests */ = {
+		9A95B33C2C8709CF00E525EB /* recipesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4C67C62C7889370052C9B5 /* Build configuration list for PBXNativeTarget "heartstone_database_iosTests" */;
+			buildConfigurationList = 9A95B3542C8709CF00E525EB /* Build configuration list for PBXNativeTarget "recipesTests" */;
 			buildPhases = (
-				9A4C67AB2C7889360052C9B5 /* Sources */,
-				9A4C67AC2C7889360052C9B5 /* Frameworks */,
-				9A4C67AD2C7889360052C9B5 /* Resources */,
+				9A95B3392C8709CF00E525EB /* Sources */,
+				9A95B33A2C8709CF00E525EB /* Frameworks */,
+				9A95B33B2C8709CF00E525EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A4C67B12C7889360052C9B5 /* PBXTargetDependency */,
+				9A95B33F2C8709CF00E525EB /* PBXTargetDependency */,
 			);
-			name = heartstone_database_iosTests;
-			productName = heartstone_database_iosTests;
-			productReference = 9A4C67AF2C7889360052C9B5 /* heartstone_database_iosTests.xctest */;
+			name = recipesTests;
+			productName = recipesTests;
+			productReference = 9A95B33D2C8709CF00E525EB /* recipesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9A4C67B82C7889370052C9B5 /* heartstone_database_iosUITests */ = {
+		9A95B3462C8709CF00E525EB /* recipesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A4C67C92C7889370052C9B5 /* Build configuration list for PBXNativeTarget "heartstone_database_iosUITests" */;
+			buildConfigurationList = 9A95B3572C8709CF00E525EB /* Build configuration list for PBXNativeTarget "recipesUITests" */;
 			buildPhases = (
-				9A4C67B52C7889370052C9B5 /* Sources */,
-				9A4C67B62C7889370052C9B5 /* Frameworks */,
-				9A4C67B72C7889370052C9B5 /* Resources */,
+				9A95B3432C8709CF00E525EB /* Sources */,
+				9A95B3442C8709CF00E525EB /* Frameworks */,
+				9A95B3452C8709CF00E525EB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9A4C67BB2C7889370052C9B5 /* PBXTargetDependency */,
+				9A95B3492C8709CF00E525EB /* PBXTargetDependency */,
 			);
-			name = heartstone_database_iosUITests;
-			productName = heartstone_database_iosUITests;
-			productReference = 9A4C67B92C7889370052C9B5 /* heartstone_database_iosUITests.xctest */;
+			name = recipesUITests;
+			productName = recipesUITests;
+			productReference = 9A95B3472C8709CF00E525EB /* recipesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A4C67972C7889350052C9B5 /* Project object */ = {
+		9A95B3252C8709CD00E525EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					9A4C679E2C7889350052C9B5 = {
+					9A95B32C2C8709CD00E525EB = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					9A4C67AE2C7889360052C9B5 = {
+					9A95B33C2C8709CF00E525EB = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 9A4C679E2C7889350052C9B5;
+						TestTargetID = 9A95B32C2C8709CD00E525EB;
 					};
-					9A4C67B82C7889370052C9B5 = {
+					9A95B3462C8709CF00E525EB = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 9A4C679E2C7889350052C9B5;
+						TestTargetID = 9A95B32C2C8709CD00E525EB;
 					};
 				};
 			};
-			buildConfigurationList = 9A4C679A2C7889350052C9B5 /* Build configuration list for PBXProject "heartstone_database_ios" */;
+			buildConfigurationList = 9A95B3282C8709CD00E525EB /* Build configuration list for PBXProject "recipes" */;
 			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 9A4C67962C7889350052C9B5;
-			productRefGroup = 9A4C67A02C7889350052C9B5 /* Products */;
+			mainGroup = 9A95B3242C8709CD00E525EB;
+			productRefGroup = 9A95B32E2C8709CD00E525EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A4C679E2C7889350052C9B5 /* heartstone_database_ios */,
-				9A4C67AE2C7889360052C9B5 /* heartstone_database_iosTests */,
-				9A4C67B82C7889370052C9B5 /* heartstone_database_iosUITests */,
+				9A95B32C2C8709CD00E525EB /* recipes */,
+				9A95B33C2C8709CF00E525EB /* recipesTests */,
+				9A95B3462C8709CF00E525EB /* recipesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A4C679D2C7889350052C9B5 /* Resources */ = {
+		9A95B32B2C8709CD00E525EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4C67AA2C7889360052C9B5 /* Preview Assets.xcassets in Resources */,
-				9A4C67A72C7889360052C9B5 /* Assets.xcassets in Resources */,
+				9A95B3382C8709CE00E525EB /* Preview Assets.xcassets in Resources */,
+				9A95B3352C8709CE00E525EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4C67AD2C7889360052C9B5 /* Resources */ = {
+		9A95B33B2C8709CF00E525EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4C67B72C7889370052C9B5 /* Resources */ = {
+		9A95B3452C8709CF00E525EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A4C679B2C7889350052C9B5 /* Sources */ = {
+		9A95B3292C8709CD00E525EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4C67A52C7889350052C9B5 /* ContentView.swift in Sources */,
-				9A4C67A32C7889350052C9B5 /* heartstone_database_iosApp.swift in Sources */,
+				9A95B3332C8709CD00E525EB /* ContentView.swift in Sources */,
+				9A95B3312C8709CD00E525EB /* recipesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4C67AB2C7889360052C9B5 /* Sources */ = {
+		9A95B3392C8709CF00E525EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4C67B42C7889360052C9B5 /* heartstone_database_iosTests.swift in Sources */,
+				9A95B3422C8709CF00E525EB /* recipesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4C67B52C7889370052C9B5 /* Sources */ = {
+		9A95B3432C8709CF00E525EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4C67C02C7889370052C9B5 /* heartstone_database_iosUITestsLaunchTests.swift in Sources */,
-				9A4C67BE2C7889370052C9B5 /* heartstone_database_iosUITests.swift in Sources */,
+				9A95B34E2C8709CF00E525EB /* recipesUITestsLaunchTests.swift in Sources */,
+				9A95B34C2C8709CF00E525EB /* recipesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A4C67B12C7889360052C9B5 /* PBXTargetDependency */ = {
+		9A95B33F2C8709CF00E525EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A4C679E2C7889350052C9B5 /* heartstone_database_ios */;
-			targetProxy = 9A4C67B02C7889360052C9B5 /* PBXContainerItemProxy */;
+			target = 9A95B32C2C8709CD00E525EB /* recipes */;
+			targetProxy = 9A95B33E2C8709CF00E525EB /* PBXContainerItemProxy */;
 		};
-		9A4C67BB2C7889370052C9B5 /* PBXTargetDependency */ = {
+		9A95B3492C8709CF00E525EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9A4C679E2C7889350052C9B5 /* heartstone_database_ios */;
-			targetProxy = 9A4C67BA2C7889370052C9B5 /* PBXContainerItemProxy */;
+			target = 9A95B32C2C8709CD00E525EB /* recipes */;
+			targetProxy = 9A95B3482C8709CF00E525EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		9A4C67C12C7889370052C9B5 /* Debug */ = {
+		9A95B34F2C8709CF00E525EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		9A4C67C22C7889370052C9B5 /* Release */ = {
+		9A95B3502C8709CF00E525EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,14 +414,14 @@
 			};
 			name = Release;
 		};
-		9A4C67C42C7889370052C9B5 /* Debug */ = {
+		9A95B3522C8709CF00E525EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"heartstone_database_ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"recipes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -434,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.heartstone-database-ios.heartstone-database-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zhangyemengren.recipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -442,14 +442,14 @@
 			};
 			name = Debug;
 		};
-		9A4C67C52C7889370052C9B5 /* Release */ = {
+		9A95B3532C8709CF00E525EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"heartstone_database_ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"recipes/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,7 +462,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.heartstone-database-ios.heartstone-database-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zhangyemengren.recipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,7 +470,7 @@
 			};
 			name = Release;
 		};
-		9A4C67C72C7889370052C9B5 /* Debug */ = {
+		9A95B3552C8709CF00E525EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,16 +479,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.heartstone-database-ios.heartstone-database-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zhangyemengren.recipesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heartstone_database_ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/heartstone_database_ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recipes";
 			};
 			name = Debug;
 		};
-		9A4C67C82C7889370052C9B5 /* Release */ = {
+		9A95B3562C8709CF00E525EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,87 +497,87 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.heartstone-database-ios.heartstone-database-iosTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zhangyemengren.recipesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heartstone_database_ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/heartstone_database_ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/recipes.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/recipes";
 			};
 			name = Release;
 		};
-		9A4C67CA2C7889370052C9B5 /* Debug */ = {
+		9A95B3582C8709CF00E525EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.heartstone-database-ios.heartstone-database-iosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zhangyemengren.recipesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = heartstone_database_ios;
+				TEST_TARGET_NAME = recipes;
 			};
 			name = Debug;
 		};
-		9A4C67CB2C7889370052C9B5 /* Release */ = {
+		9A95B3592C8709CF00E525EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.heartstone-database-ios.heartstone-database-iosUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.zhangyemengren.recipesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = heartstone_database_ios;
+				TEST_TARGET_NAME = recipes;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A4C679A2C7889350052C9B5 /* Build configuration list for PBXProject "heartstone_database_ios" */ = {
+		9A95B3282C8709CD00E525EB /* Build configuration list for PBXProject "recipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4C67C12C7889370052C9B5 /* Debug */,
-				9A4C67C22C7889370052C9B5 /* Release */,
+				9A95B34F2C8709CF00E525EB /* Debug */,
+				9A95B3502C8709CF00E525EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4C67C32C7889370052C9B5 /* Build configuration list for PBXNativeTarget "heartstone_database_ios" */ = {
+		9A95B3512C8709CF00E525EB /* Build configuration list for PBXNativeTarget "recipes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4C67C42C7889370052C9B5 /* Debug */,
-				9A4C67C52C7889370052C9B5 /* Release */,
+				9A95B3522C8709CF00E525EB /* Debug */,
+				9A95B3532C8709CF00E525EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4C67C62C7889370052C9B5 /* Build configuration list for PBXNativeTarget "heartstone_database_iosTests" */ = {
+		9A95B3542C8709CF00E525EB /* Build configuration list for PBXNativeTarget "recipesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4C67C72C7889370052C9B5 /* Debug */,
-				9A4C67C82C7889370052C9B5 /* Release */,
+				9A95B3552C8709CF00E525EB /* Debug */,
+				9A95B3562C8709CF00E525EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A4C67C92C7889370052C9B5 /* Build configuration list for PBXNativeTarget "heartstone_database_iosUITests" */ = {
+		9A95B3572C8709CF00E525EB /* Build configuration list for PBXNativeTarget "recipesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A4C67CA2C7889370052C9B5 /* Debug */,
-				9A4C67CB2C7889370052C9B5 /* Release */,
+				9A95B3582C8709CF00E525EB /* Debug */,
+				9A95B3592C8709CF00E525EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9A4C67972C7889350052C9B5 /* Project object */;
+	rootObject = 9A95B3252C8709CD00E525EB /* Project object */;
 }

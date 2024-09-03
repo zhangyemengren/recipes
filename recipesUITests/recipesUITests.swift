@@ -1,13 +1,13 @@
 //
-//  heartstone_database_iosUITests.swift
-//  heartstone_database_iosUITests
+//  recipesUITests.swift
+//  recipesUITests
 //
-//  Created by 张弛 on 2024/8/23.
+//  Created by 张弛 on 2024/9/3.
 //
 
 import XCTest
 
-final class heartstone_database_iosUITests: XCTestCase {
+final class recipesUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
