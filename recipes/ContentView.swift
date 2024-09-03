@@ -2,18 +2,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        ZStack(alignment: .bottom) {
             TabView {
                 Text("Home Screen")
                     .tabItem {
                         Image(systemName: "house.fill")
                         Text("Home")
-                    }
-                
-                Text("Search Screen")
-                    .tabItem {
-                        Image(systemName: "magnifyingglass")
-                        Text("Search")
                     }
                 
                 Text("Profile Screen")
@@ -22,6 +16,28 @@ struct ContentView: View {
                         Text("Profile")
                     }
             }
+            .zIndex(0)
+            HStack{
+                Button(action: {}) {
+                    ZStack {
+                        Circle()
+                            .fill(Color.yellow)
+                                                            .frame(width: 50, height: 50)
+                        Image(systemName: "plus")
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 30, height: 30) // Adjust size here
+                            .foregroundColor(.black)
+                        
+                    
+                    }
+                    .padding(.bottom, 0)
+                    
+                    
+                }
+                .offset(y: -10) // Adjust vertical offset here
+            }
+            .zIndex(1)
         }
         
     }
