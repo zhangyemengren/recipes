@@ -14,6 +14,7 @@
 		9A95B3422C8709CF00E525EB /* recipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B3412C8709CF00E525EB /* recipesTests.swift */; };
 		9A95B34C2C8709CF00E525EB /* recipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B34B2C8709CF00E525EB /* recipesUITests.swift */; };
 		9A95B34E2C8709CF00E525EB /* recipesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B34D2C8709CF00E525EB /* recipesUITestsLaunchTests.swift */; };
+		9A95B3632C8961C600E525EB /* AddPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A95B3622C8961C200E525EB /* AddPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9A95B3472C8709CF00E525EB /* recipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A95B34B2C8709CF00E525EB /* recipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesUITests.swift; sourceTree = "<group>"; };
 		9A95B34D2C8709CF00E525EB /* recipesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9A95B3622C8961C200E525EB /* AddPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		9A95B32F2C8709CD00E525EB /* recipes */ = {
 			isa = PBXGroup;
 			children = (
+				9A95B35F2C89616600E525EB /* pages */,
 				9A95B3302C8709CD00E525EB /* recipesApp.swift */,
 				9A95B3322C8709CD00E525EB /* ContentView.swift */,
 				9A95B3342C8709CE00E525EB /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				9A95B34D2C8709CF00E525EB /* recipesUITestsLaunchTests.swift */,
 			);
 			path = recipesUITests;
+			sourceTree = "<group>";
+		};
+		9A95B35F2C89616600E525EB /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				9A95B3622C8961C200E525EB /* AddPage.swift */,
+			);
+			path = pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A95B3332C8709CD00E525EB /* ContentView.swift in Sources */,
+				9A95B3632C8961C600E525EB /* AddPage.swift in Sources */,
 				9A95B3312C8709CD00E525EB /* recipesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
